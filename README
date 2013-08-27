@@ -1,0 +1,23 @@
+Tibco EMS Admin - PHP Extension
+
+Author: Lukas Prettenthaler (http://zyclonite.net)
+Licence: GPLv2
+
+
+REQUIREMENTS:
+
+.) PHP Version 5+
+.) phpize
+.) c compiler
+.) Tibco JMS client libraries
+   (tibco is a commercial tool - more information at http://www.tibco.com/)
+
+
+INSTALLATION:
+
+.) unpack
+.) phpize
+.) ./configure --with-tibcoadm=/opt/tibco/ems/clients/c
+.) make
+.) make install
+.) copy the web directory to your webserver
