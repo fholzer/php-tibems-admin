@@ -38,7 +38,7 @@ tibemsQueue                   queue;
 char*                         queueName;
 
 
-static function_entry tibcoadm_functions[] = {
+static const zend_function_entry tibcoadm_functions[] = {
     PHP_FE(tibcoadm_version, NULL)
     PHP_FE(tibcoadm_getstatus, NULL)
     PHP_FE(tibcoadm_getusers, NULL)
